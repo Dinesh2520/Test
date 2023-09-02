@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.25923">
+    <testcase classname="To validate the forgotten functional" name="To validate the forgotten fun" time="15.25923">
+        <system-out><![CDATA[Given user have to check forgot.............................................passed
+When user have click the forgotten pass.....................................passed
+And user have enter email add...............................................passed
+Then user have click the search.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

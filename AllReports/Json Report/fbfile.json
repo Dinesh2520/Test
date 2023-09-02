@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-08T09:03:45.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3788700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 14818076700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeclass1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162019900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeclass2()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the forgotten fun",
+        "description": "",
+        "id": "to-validate-the-forgotten-functional;to-validate-the-forgotten-fun",
+        "after": [
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterclass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 333800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterclass1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 215155100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterclass2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1679400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to check forgot",
+            "match": {
+              "location": "StepDefinition.userHaveToCheckForgot()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have click the forgotten pass",
+            "match": {
+              "location": "StepDefinition.userHaveClickTheForgottenPass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 726500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have enter email add",
+            "match": {
+              "location": "StepDefinition.userHaveEnterEmailAdd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 811900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user have click the search",
+            "match": {
+              "location": "StepDefinition.userHaveClickTheSearch()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the forgotten functional",
+    "description": "",
+    "id": "to-validate-the-forgotten-functional",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/new.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
