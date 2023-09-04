@@ -1,4 +1,4 @@
-@login
+
 Feature: To validate the forgotten functional
 
 Scenario: To validate the forgotten fun

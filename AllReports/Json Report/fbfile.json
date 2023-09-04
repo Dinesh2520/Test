@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-08-08T09:03:45.730Z",
+        "line": 4,
+        "name": "user have entered amazon through chrome browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-09-04T09:08:18.433Z",
         "before": [
           {
             "result": {
-              "duration": 3788700,
+              "duration": 1615900,
               "status": "passed"
             },
             "match": {
@@ -16,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 14818076700,
+              "duration": 10470078600,
               "status": "passed"
             },
             "match": {
@@ -25,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 162019900,
+              "duration": 116777400,
               "status": "passed"
             },
             "match": {
@@ -33,14 +41,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "To validate the forgotten fun",
+        "line": 32,
+        "name": "To validate login by using multi dimensional map search credentials",
         "description": "",
-        "id": "to-validate-the-forgotten-functional;to-validate-the-forgotten-fun",
+        "id": "to-validate-the-login-functionality-of-amazon-application;to-validate-login-by-using-multi-dimensional-map-search-credentials",
         "after": [
           {
             "result": {
-              "duration": 187000,
+              "duration": 104600,
               "status": "passed"
             },
             "match": {
@@ -49,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 333800,
+              "duration": 125600,
               "status": "passed"
             },
             "match": {
@@ -58,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 215155100,
+              "duration": 317454400,
               "status": "passed"
             },
             "match": {
@@ -71,49 +79,55 @@
         "steps": [
           {
             "result": {
-              "duration": 1679400,
+              "duration": 8166784400,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user have to check forgot",
+            "line": 34,
+            "name": "user have got the valid datas from feature file",
             "match": {
-              "location": "StepDefinition.userHaveToCheckForgot()"
+              "location": "StepDefinition.user_have_got_the_valid_datas_from_feature_file(DataTable)"
             },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1054200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user have click the forgotten pass",
-            "match": {
-              "location": "StepDefinition.userHaveClickTheForgottenPass()"
-            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "Phoneno",
+                  "Username"
+                ]
+              },
+              {
+                "cells": [
+                  "Dinesh123@gmail.com",
+                  "346475341354",
+                  "mano123"
+                ]
+              },
+              {
+                "cells": [
+                  "Greens@gmail.com",
+                  "687656876764",
+                  "yasar123"
+                ]
+              },
+              {
+                "cells": [
+                  "java123@gmail.com",
+                  "687652265",
+                  "java123"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 726500,
+              "duration": 90868300,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user have enter email add",
+            "line": 39,
+            "name": "user have click the login button after entering\"",
             "match": {
-              "location": "StepDefinition.userHaveEnterEmailAdd()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 811900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user have click the search",
-            "match": {
-              "location": "StepDefinition.userHaveClickTheSearch()"
+              "location": "StepDefinition.user_have_click_the_login_button_after_entering()"
             },
             "keyword": "Then "
           }
@@ -125,20 +139,11 @@
         ]
       }
     ],
-    "name": "To validate the forgotten functional",
+    "name": "To validate the login functionality of amazon application",
     "description": "",
-    "id": "to-validate-the-forgotten-functional",
+    "id": "to-validate-the-login-functionality-of-amazon-application",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Featurefiles/new.feature",
-    "tags": [
-      {
-        "name": "@login",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/Featurefiles/login.feature",
+    "tags": []
   }
 ]

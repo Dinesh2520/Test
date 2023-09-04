@@ -28,7 +28,7 @@ When user have get valid datas from feature file
 |Username|Manoj123@gmail.com|
 Then user have click the login button after entering data
 
-
+@login
 Scenario: To validate login by using multi dimensional map search credentials 
 
 When user have got the valid datas from feature file 
